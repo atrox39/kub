@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ghcr.io/atrox39-github/kub:latest
+        image: ghcr.io/atrox39/kub:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
